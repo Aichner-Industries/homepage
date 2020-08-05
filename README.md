@@ -88,8 +88,7 @@ Get updates on our development and chat/talk with the project maintainers and co
 
 [![Discord][discord-badge]][discord]
 
-- Follow [@realaichner](https://twitter.com/realaichner).
-- Follow us on [Facebook](https://www.facebook.com/werbeagentur.aichner).
+- Follow us on [Facebook](https://www.facebook.com/aichner.industries).
 
 ## [](#versioning)Versioning
 
