@@ -127,5 +127,5 @@ export default HomePage;
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2020 Werbeagentur Christian Aichner
+ * Copyright © 2020 Christian Aichner
  */
