@@ -48,7 +48,7 @@ class App extends React.Component {
             <Navbar />
             <main>
               <Routes />
-              <CookieModal saveCookie={this.saveCookie} />
+              {/*<CookieModal saveCookie={this.saveCookie} />*/}
             </main>
             <Footer />
           </div>
