@@ -12,12 +12,11 @@ import { MDBContainer, MDBBtn, MDBIcon } from "mdbreact";
 //> Information
 // About
 const about = {
-  company: "Company",
-  phone: "Company phone",
-  address: "Company address",
-  zip: "ZIP",
-  city: "City",
-  mail: "mail@mail.com",
+  company: "Christian Aichner",
+  address: "Emailwerkstraße 29",
+  zip: "9523",
+  city: "Landskron",
+  mail: "info@aichner.industries",
 };
 //#endregion
 
@@ -33,13 +32,11 @@ class MessagePage extends React.Component {
             <p>
               <strong>{about.company}</strong>
               <br />
-              Tel: {about.phone}
-              <br />
               {about.address}
               <br />
               {about.zip} {about.city}
               <br />
-              <MDBBtn color="orange" href={`mailto:${about.mail}`}>
+              <MDBBtn color="elegant" href={`mailto:${about.mail}`}>
                 <MDBIcon far icon="envelope" />
                 Kontakt
               </MDBBtn>

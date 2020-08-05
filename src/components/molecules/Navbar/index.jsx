@@ -15,6 +15,9 @@ import {
   MDBNavLink,
   MDBContainer,
 } from "mdbreact";
+
+//> Images
+import imgLogo from "../../../assets/logo-h100.png";
 //#endregion
 
 //#region > Components
@@ -48,10 +51,8 @@ class Navbar extends React.Component {
       <div>
         <MDBNavbar color="white" light expand="md" fixed="top" scrolling>
           <MDBContainer>
-            <MDBNavbarBrand href="/" className="py-0 font-weight-bold">
-              <strong className="align-middle">
-                MDB React Firebase Template
-              </strong>
+            <MDBNavbarBrand href="/" className="py-1 font-weight-bold">
+              <img src={imgLogo} alt="Aichner Industries Logo" height="50" />
             </MDBNavbarBrand>
             <MDBNavbarToggler
               onClick={this.toggleCollapse("mainNavbarCollapse")}
