@@ -56,7 +56,7 @@ class HomePage extends React.Component {
                       Source
                     </p>
                     <p className="pb-2 text-muted">
-                      All of our tool, research and progress is{" "}
+                      All of our tools, research and progress is{" "}
                       <strong>100%</strong> open source.
                     </p>
                     <div>
