@@ -3,11 +3,10 @@
 import HomePage from "./HomePage";
 import LoginPage from "./LoginPage";
 import MessagePage from "./MessagePage";
-import ProfilePage from "./ProfilePage";
 //#endregion
 
 //#region > Exports
-export { HomePage, LoginPage, MessagePage, ProfilePage };
+export { HomePage, LoginPage, MessagePage };
 //#endregion
 
 /**
