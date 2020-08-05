@@ -29,12 +29,7 @@ import {
 // To be added here
 
 //> Images
-import IMGlogo from "../../../assets/agency-small.png";
-//#endregion
-
-//#region > Config
-// The route of your profile page (include /)
-const profileRoute = "/profile";
+import IMGlogo from "../../../assets/logo-h100.png";
 //#endregion
 
 //#region > Components
@@ -75,30 +70,7 @@ class LoginPage extends React.Component {
   };
 
   render() {
-    const { authErrorDetails, auth, location } = this.props;
-
-    // Get GET parameters from URL
-    let params = location.search.substr(1)
-      ? location.search.substr(1).split("=")
-      : null;
-
-    // Check if there are any GET parameters in the URL
-    if (params) {
-      // Check if the GET parameter on position 0 is a refer
-      if (params[0] === "refer") {
-        // Check for custom refers (You would use this when a user tries to access /me, but is not logged in)
-        switch (params[1]) {
-          case "me":
-            if (auth.uid !== undefined) return <Redirect to="/me" />;
-            break;
-          default:
-            if (auth.uid !== undefined) return <Redirect to={profileRoute} />;
-        }
-      }
-    } else {
-      // User is not logged in and has no refer GET parameter
-      if (auth.uid !== undefined) return <Redirect to={profileRoute} />;
-    }
+    const { authErrorDetails } = this.props;
 
     return (
       <MDBContainer id="login" className="text-center pt-5 mt-5">

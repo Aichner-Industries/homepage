@@ -20,12 +20,6 @@ import {
 } from "mdbreact";
 
 //> Images
-// Logo of MDB React
-import MDBLogo from "../../../assets/mdb-react-small.png";
-// Logo of Advertisement Agency Christian Aichner
-import AgencyLogo from "../../../assets/agency-small.png";
-// Image of someone coding
-import Projects from "../../../assets/content/projects.jpg";
 
 //> CSS
 import "./HomePage.scss";
@@ -46,20 +40,7 @@ class HomePage extends React.Component {
               >
                 <MDBCardBody className="text-center">
                   <h2 className="h2-responsive mb-4">
-                    <strong className="font-weight-bold">
-                      <img
-                        src={AgencyLogo}
-                        alt="mdbreact-logo"
-                        className="pr-2"
-                      />
-                      +
-                      <img
-                        src={MDBLogo}
-                        alt="mdbreact-logo"
-                        className="pr-2 pl-2"
-                      />
-                      Template App
-                    </strong>
+                    <strong className="font-weight-bold">Template App</strong>
                   </h2>
                   <MDBRow />
                   <p>React Bootstrap with Material Design</p>
@@ -106,11 +87,6 @@ class HomePage extends React.Component {
                 <MDBRow id="categories" className="justify-content-center">
                   <MDBCol md="4">
                     <MDBCard cascade className="my-3 grey lighten-4">
-                      <MDBCardImage
-                        cascade
-                        className="img-fluid"
-                        src={Projects}
-                      />
                       <MDBCardBody cascade className="text-center">
                         <MDBCardTitle>
                           <MDBIcon

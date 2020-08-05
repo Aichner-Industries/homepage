@@ -13,7 +13,7 @@ import { MDBFooter, MDBRow, MDBCol, MDBContainer, MDBIcon } from "mdbreact";
 import "./footer.scss";
 
 //> Images
-import logoImg from "../../../assets/agency-small.png";
+import logoImg from "../../../assets/logo-h100.png";
 //#endregion
 
 //#region > Components

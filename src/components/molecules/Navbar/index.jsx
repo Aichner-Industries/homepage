@@ -15,9 +15,6 @@ import {
   MDBNavLink,
   MDBContainer,
 } from "mdbreact";
-
-// React Logo
-import { ReactComponent as Logo } from "../../../assets/logo.svg";
 //#endregion
 
 //#region > Components
@@ -52,7 +49,6 @@ class Navbar extends React.Component {
         <MDBNavbar color="white" light expand="md" fixed="top" scrolling>
           <MDBContainer>
             <MDBNavbarBrand href="/" className="py-0 font-weight-bold">
-              <Logo style={{ height: "2.5rem", width: "2.5rem" }} />
               <strong className="align-middle">
                 MDB React Firebase Template
               </strong>
