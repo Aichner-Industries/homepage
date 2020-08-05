@@ -68,7 +68,12 @@ class HomePage extends React.Component {
                         <MDBIcon fab icon="github" />
                         View on GitHub
                       </MDBBtn>
-                      <MDBBtn color="indigo">Get involved</MDBBtn>
+                      <MDBBtn
+                        color="indigo"
+                        href="mailto:info@aichner.industries"
+                      >
+                        Get involved
+                      </MDBBtn>
                     </div>
                   </MDBCardBody>
                 </MDBCard>
