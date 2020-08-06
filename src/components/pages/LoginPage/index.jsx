@@ -78,7 +78,7 @@ class LoginPage extends React.Component {
           src={IMGlogo}
           style={{ maxWidth: "100%", maxHeight: "150px" }}
           alt="SithCult logo"
-          className="img-fluid"
+          className="img-fluid mb-3"
         />
         <form onSubmit={this.submitHandler}>
           <MDBRow className="flex-center">
@@ -115,8 +115,8 @@ class LoginPage extends React.Component {
               />
             </MDBCol>
           </MDBRow>
-          <MDBBtn color="orange" type="submit">
-            <MDBIcon icon="angle-right" />
+          <MDBBtn color="elegant" type="submit">
+            <MDBIcon icon="key" />
             Login
           </MDBBtn>
         </form>
@@ -150,5 +150,5 @@ export default connect(
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2020 Werbeagentur Christian Aichner
+ * Copyright © 2020 Christian Aichner
  */

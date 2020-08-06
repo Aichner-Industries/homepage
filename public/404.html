@@ -1,0 +1,166 @@
+<!--
+  SPDX-License-Identifier: (EUPL-1.2)
+  Copyright © 2020 Christian Aichner
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="%PUBLIC_URL%/fav/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="%PUBLIC_URL%/fav/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="%PUBLIC_URL%/fav/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="%PUBLIC_URL%/fav/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="%PUBLIC_URL%/fav/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="%PUBLIC_URL%/fav/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="%PUBLIC_URL%/fav/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="%PUBLIC_URL%/fav/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="%PUBLIC_URL%/fav/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="%PUBLIC_URL%/fav/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="%PUBLIC_URL%/fav/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="%PUBLIC_URL%/fav/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="%PUBLIC_URL%/fav/favicon-16x16.png"
+    />
+    <link rel="manifest" href="%PUBLIC_URL%/fav/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="%PUBLIC_URL%/fav/ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>
+      AICHNER INDUSTRIES - Because humanity is just too important to us.
+    </title>
+    <meta
+      name="description"
+      content="Many important resources on this planet are limited. There
+      will be the day, when those resources are gone. Progress
+      will be halted and humanity will no longer be able to
+      thrive, crashing into chaos."
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="AICHNER INDUSTRIES - Because humanity is just too important to us."
+    />
+    <meta property="og:site_name" content="Werbeagentur Christian Aichner" />
+    <meta
+      property="og:description"
+      content="Many important resources on this planet are limited. There
+      will be the day, when those resources are gone. Progress
+      will be halted and humanity will no longer be able to
+      thrive, crashing into chaos."
+    />
+    <meta property="og:image" content="https://aichner.industries/fav/og.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:title"
+      content="AICHNER INDUSTRIES - Because humanity is just too important to us."
+    />
+    <meta
+      property="twitter:description"
+      content="Many important resources on this planet are limited. There
+      will be the day, when those resources are gone. Progress
+      will be halted and humanity will no longer be able to
+      thrive, crashing into chaos."
+    />
+    <meta
+      property="twitter:image"
+      content="https://aichner.industries/fav/og.jpg"
+    />
+    <script type="text/javascript">
+      let segmentCount = 0;
+      let l = window.location;
+
+      l.replace(
+        l.protocol +
+          "//" +
+          l.hostname +
+          (l.port ? ":" + l.port : "") +
+          l.pathname
+            .split("/")
+            .slice(0, 1 + segmentCount)
+            .join("/") +
+          "/?p=/" +
+          l.pathname
+            .slice(1)
+            .split("/")
+            .slice(segmentCount)
+            .join("/")
+            .replace(/&/g, "~and~") +
+          (l.search ? "&q=" + l.search.slice(1).replace(/&/g, "~and~") : "") +
+          l.hash
+      );
+    </script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      Only use JavaScript here if there is no other way.
+    -->
+  </body>
+</html>

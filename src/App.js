@@ -48,7 +48,7 @@ class App extends React.Component {
             <Navbar />
             <main>
               <Routes />
-              <CookieModal saveCookie={this.saveCookie} />
+              {/*<CookieModal saveCookie={this.saveCookie} />*/}
             </main>
             <Footer />
           </div>
@@ -65,5 +65,5 @@ export default App;
 
 /**
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2020 Werbeagentur Christian Aichner
+ * Copyright © 2020 Christian Aichner
  */

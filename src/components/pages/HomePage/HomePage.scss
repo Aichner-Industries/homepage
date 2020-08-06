@@ -21,10 +21,26 @@ a.border.nav-link.border-light.rounded.mr-1:hover {
 #categories > .col-md-4.mb-5 {
   margin-bottom: 8rem !important;
 }
+
 .sectionPage {
+  height: 600px;
   position: relative;
   top: -15px;
-  margin-bottom: -125px;
+  margin-bottom: -100px;
+  background-image: url("../../../assets/bg/bg.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.why {
+  .col-lg-4 {
+    text-align: center;
+
+    img {
+      max-height: 100px;
+      margin-bottom: 1rem;
+    }
+  }
 }
 
 .home-feature-box .fa {
@@ -53,5 +69,5 @@ a.border.nav-link.border-light.rounded.mr-1:hover {
 
 /** 
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2020 Werbeagentur Christian Aichner
+ * Copyright © 2020 Christian Aichner
  */

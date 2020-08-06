@@ -27,6 +27,7 @@
     background-color: lighten($dark, 30%) !important;
   }
 }
+
 .bg-red {
   background-color: $red !important;
   &.darken-1 {
@@ -48,6 +49,7 @@
     background-color: lighten($red, 30%) !important;
   }
 }
+
 .bg-green {
   background-color: $green !important;
   &.darken-1 {
@@ -74,6 +76,7 @@
 .red-text {
   color: $red !important;
 }
+
 .pink-text {
   color: $pink !important;
 }
@@ -81,12 +84,15 @@
 // Buttons
 .btn {
   box-shadow: none !important;
+
   &:hover {
     box-shadow: none;
   }
+
   &:active {
     box-shadow: none;
   }
+
   &:focus {
     box-shadow: none;
   }
@@ -95,6 +101,7 @@
 // Cards
 .card {
   box-shadow: none;
+  border-radius: 0.4rem;
 }
 
 // Generic
@@ -102,14 +109,24 @@
   cursor: pointer !important;
 }
 
-// Fix icon spacing in buttons
 .btn {
+  border-radius: 0.4rem;
+
   i {
     padding-right: 0.2rem;
+  }
+
+  &.btn-mars {
+    background: #d65048;
+    color: white;
+
+    &:hover {
+      background: darken(#d65048, 5%) !important;
+    }
   }
 }
 
 /** 
  * SPDX-License-Identifier: (EUPL-1.2)
- * Copyright © 2020 Werbeagentur Christian Aichner
+ * Copyright © 2020 Christian Aichner
  */
