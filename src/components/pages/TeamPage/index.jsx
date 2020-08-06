@@ -112,13 +112,15 @@ class PositionsPage extends React.Component {
                         href={member.snek}
                         target="_blank"
                       >
-                        <img
-                          src="https://github.com/snek-at/ops-front/blob/master/public/fav/apple-icon-57x57.png?raw=true"
-                          alt="SNEK Logo"
-                          height="11"
-                          className="mr-1"
-                        />
-                        snek
+                        <span className="d-flex align-items-center">
+                          <img
+                            src="https://github.com/snek-at/ops-front/blob/master/public/fav/apple-icon-57x57.png?raw=true"
+                            alt="SNEK Logo"
+                            height="11"
+                            className="mr-1"
+                          />
+                          snek
+                        </span>
                       </MDBBtn>
                     )}
                   </MDBCardBody>
