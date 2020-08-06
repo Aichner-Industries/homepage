@@ -31,6 +31,7 @@ const TEAM = [
       "https://avatars3.githubusercontent.com/u/21159914?s=460&u=afab4659183999f1adc85089bb713aefbf085b94&v=4",
     facebook: "https://www.facebook.com/aichner.christian",
     github: "https://github.com/Aichnerc",
+    linkedin: "https://www.linkedin.com/in/aichnerc/",
     snek: "https://snek.at/u/aichnerc",
     positions: ["Chairman and founder", "Full-Stack Software Engineer"],
   },
@@ -49,6 +50,14 @@ const TEAM = [
     github: "https://github.com/kleberbaum",
     snek: "https://snek.at/u/kleberbaum",
     positions: ["Code Quality Inspector", "Backend Software Engineer"],
+  },
+  {
+    name: "David Pinterics",
+    avatar:
+      "https://avatars1.githubusercontent.com/u/55298934?s=460&u=37517fbfe6f4bc3aa2b1f92fa58a348bd977abbe&v=4",
+    github: "https://github.com/pinterid",
+    snek: "https://snek.at/u/pinterid",
+    positions: ["Code Quality Inspector"],
   },
 ];
 //#endregion
@@ -71,7 +80,7 @@ class PositionsPage extends React.Component {
         <MDBRow className="justify-content-center">
           {TEAM.map((member, m) => {
             return (
-              <MDBCol lg="4" className="mt-5 mb-4" key={m}>
+              <MDBCol lg="4" className="mt-5 mb-5" key={m}>
                 <MDBCard testimonial className="border">
                   <MDBAvatar className="mx-auto white border">
                     <img src={member.avatar} alt={member.name} />
@@ -103,6 +112,17 @@ class PositionsPage extends React.Component {
                       >
                         <MDBIcon fab icon="facebook" />
                         Facebook
+                      </MDBBtn>
+                    )}
+                    {member.linkedin && (
+                      <MDBBtn
+                        social="li"
+                        size="md"
+                        href={member.linkedin}
+                        target="_blank"
+                      >
+                        <MDBIcon fab icon="linkedin" />
+                        LinkedIn
                       </MDBBtn>
                     )}
                     {member.snek && (
