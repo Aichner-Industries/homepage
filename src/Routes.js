@@ -13,7 +13,7 @@ import {
   HomePage,
   MessagePage,
   LoginPage,
-  ProfilePag,
+  PositionsPage,
 } from "./components/pages";
 //#endregion
 
@@ -24,6 +24,7 @@ class Routes extends React.Component {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/login" component={LoginPage} />
+        <Route exact path="/jobs" component={PositionsPage} />
         <Route
           exact
           path="/about"
