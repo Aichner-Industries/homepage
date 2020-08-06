@@ -81,6 +81,10 @@
   color: $pink !important;
 }
 
+.testimonial-card {
+  background: darken(white, 3%);
+}
+
 // Buttons
 .btn {
   box-shadow: none !important;
@@ -101,7 +105,7 @@
     background: white;
 
     &:hover {
-      background: transparentize(#77bd43, 0.8) !important;
+      background: darken(white, 10%);
     }
   }
 }
