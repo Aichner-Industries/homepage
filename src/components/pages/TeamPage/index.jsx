@@ -15,7 +15,6 @@ import {
   MDBCol,
   MDBCard,
   MDBCardBody,
-  MDBCardUp,
   MDBAvatar,
 } from "mdbreact";
 
@@ -32,7 +31,7 @@ const TEAM = [
     facebook: "https://www.facebook.com/aichner.christian",
     github: "https://github.com/Aichnerc",
     linkedin: "https://www.linkedin.com/in/aichnerc/",
-    snek: "https://snek.at/u/aichnerc",
+    snek: "https://snek.at/u/Aichnerc",
     positions: ["Chairman and founder", "Full-Stack Software Engineer"],
   },
   {

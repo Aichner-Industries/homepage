@@ -8,7 +8,6 @@ import React from "react";
 import {
   MDBContainer,
   MDBBtn,
-  MDBIcon,
   MDBRow,
   MDBCol,
   MDBCard,
@@ -86,7 +85,7 @@ class PositionsPage extends React.Component {
                 <div className="text-left">
                   <p className="mb-2">Our main areas of research</p>
                   <ul>
-                    <li>Avionik</li>
+                    <li>Avionics</li>
                     <li>Communication systems</li>
                     <li>Electronics</li>
                     <li>PCB Design</li>

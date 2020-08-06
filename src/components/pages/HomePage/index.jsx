@@ -15,7 +15,6 @@ import {
   MDBIcon,
   MDBCard,
   MDBCardTitle,
-  MDBCardImage,
   MDBCardText,
   MDBView,
   MDBMask,
