@@ -32,7 +32,7 @@ const TEAM = [
     facebook: "https://www.facebook.com/aichner.christian",
     github: "https://github.com/Aichnerc",
     snek: "https://snek.at/u/aichnerc",
-    positions: ["Chairman and founder", "Software Engineer"],
+    positions: ["Chairman and founder", "Full-Stack Software Engineer"],
   },
   {
     name: "Luca Egger",
