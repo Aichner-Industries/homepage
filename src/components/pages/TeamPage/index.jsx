@@ -31,6 +31,7 @@ const TEAM = [
       "https://avatars3.githubusercontent.com/u/21159914?s=460&u=afab4659183999f1adc85089bb713aefbf085b94&v=4",
     facebook: "https://www.facebook.com/aichner.christian",
     github: "https://github.com/Aichnerc",
+    snek: "https://snek.at/u/aichnerc",
     positions: ["Chairman and founder", "Software Engineer"],
   },
   {
@@ -40,6 +41,14 @@ const TEAM = [
     facebook: "https://www.facebook.com/lucaegger00",
     github: "https://github.com/sweggerat",
     positions: ["Deputy chairman and co-founder", "Customer relations"],
+  },
+  {
+    name: "Florian Kleber",
+    avatar:
+      "https://avatars3.githubusercontent.com/u/26285351?s=460&u=436ec570a42946e246268b2e3b1e310342e02aa8&v=4",
+    github: "https://github.com/kleberbaum",
+    snek: "https://snek.at/u/kleberbaum",
+    positions: ["Code Quality Inspector", "Backend Software Engineer"],
   },
 ];
 //#endregion
@@ -94,6 +103,22 @@ class PositionsPage extends React.Component {
                       >
                         <MDBIcon fab icon="facebook" />
                         Facebook
+                      </MDBBtn>
+                    )}
+                    {member.snek && (
+                      <MDBBtn
+                        color="snek"
+                        size="md"
+                        href={member.snek}
+                        target="_blank"
+                      >
+                        <img
+                          src="https://github.com/snek-at/ops-front/blob/master/public/fav/apple-icon-57x57.png?raw=true"
+                          alt="SNEK Logo"
+                          height="11"
+                          className="mr-1"
+                        />
+                        snek
                       </MDBBtn>
                     )}
                   </MDBCardBody>

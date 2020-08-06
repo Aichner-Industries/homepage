@@ -96,6 +96,14 @@
   &:focus {
     box-shadow: none;
   }
+
+  &.btn-snek {
+    background: white;
+
+    &:hover {
+      background: transparentize(#77bd43, 0.8) !important;
+    }
+  }
 }
 
 hr {
