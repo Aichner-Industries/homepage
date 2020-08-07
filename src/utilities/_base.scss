@@ -81,6 +81,11 @@
   color: $pink !important;
 }
 
+.testimonial-card {
+  background: darken(white, 3%);
+  height: 100%;
+}
+
 // Buttons
 .btn {
   box-shadow: none !important;
@@ -96,6 +101,18 @@
   &:focus {
     box-shadow: none;
   }
+
+  &.btn-snek {
+    background: white;
+
+    &:hover {
+      background: darken(white, 10%);
+    }
+  }
+}
+
+hr {
+  width: 70px;
 }
 
 // Cards

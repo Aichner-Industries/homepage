@@ -75,6 +75,24 @@ class Navbar extends React.Component {
                 <MDBNavItem>
                   <MDBNavLink
                     exact
+                    to="/jobs"
+                    onClick={this.closeCollapse("mainNavbarCollapse")}
+                  >
+                    <strong>Positions</strong>
+                  </MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink
+                    exact
+                    to="/us"
+                    onClick={this.closeCollapse("mainNavbarCollapse")}
+                  >
+                    <strong>Team</strong>
+                  </MDBNavLink>
+                </MDBNavItem>
+                <MDBNavItem>
+                  <MDBNavLink
+                    exact
                     to="/login"
                     onClick={this.closeCollapse("mainNavbarCollapse")}
                   >
